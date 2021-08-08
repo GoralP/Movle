@@ -1,0 +1,3529 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+img {
+  max-width: 100%;
+}
+.App {
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.property-form-area-input {
+  height: 3rem !important;
+  width: 100%;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border: none !important;
+  border-radius: 0.6rem !important;
+  padding: 0 0.6rem;
+}
+
+.autocomplete-dropdown-container {
+  position: absolute;
+  right: 5px;
+  top: 100%;
+  left: 5px;
+  border-top: 1px solid #eee;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  padding: 5px 15px 5px;
+  background-color: #fff;
+  z-index: 2;
+}
+.autocomplete-dropdown-container:empty {
+  padding: 0;
+}
+.autocomplete-dropdown-container div {
+  margin-bottom: 5px;
+}
+
+.pound-icon {
+  vertical-align: text-top;
+  font-size: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.additional-block {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.image-input-box {
+  background-color: white;
+  border: none;
+  margin: 0 0.7rem;
+  padding: 0.5rem;
+  width: 90%;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.additional-criteria {
+  border: 1px solid gray;
+  border-top: none;
+  padding: 0.5rem;
+}
+
+.sweet-warning {
+  background-color: rgb(220, 53, 69);
+  font-size: 1.4rem;
+}
+.sweet-warning:hover {
+  background-color: rgb(220, 53, 69) !important;
+}
+.sweet-cancel {
+  background-color: white;
+  border: 4px solid rgb(139, 195, 255, 0.4);
+  color: rgb(23, 162, 184);
+  text-decoration: underline;
+  font-size: 1.4rem !important;
+}
+.sweet-cancel:hover {
+  background-color: white !important;
+}
+
+.sweet-ok {
+  background-color: blue;
+  font-size: 1.4rem !important;
+}
+.sweet-ok:hover {
+  background-color: blue !important;
+}
+
+.swal-footer {
+  text-align: center;
+}
+.swal-text {
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 1rem !important;
+}
+.swal-title {
+  color: rgb(0, 0, 0);
+  font-size: 2.1rem !important;
+}
+
+.view-list-item {
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  margin: 0rem;
+  background-color: white;
+}
+
+.view-property-line {
+  border-bottom: 1px solid rgb(209, 206, 206);
+  padding-bottom: 0.5rem;
+}
+
+.view-properties-padder {
+  padding: 3rem 0;
+}
+
+.view-price {
+  font-size: 17px;
+  color: red;
+  font-weight: 600;
+}
+
+.view-preoperties-list-image {
+  width: 100%;
+  height: 100%;
+}
+
+.view-property-name {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.view-action {
+  border-left: 1px solid rgb(184, 182, 182, 0.5);
+}
+
+.blog-slider-image {
+  height: 230px;
+  width: 100%;
+}
+
+.property-edit-button {
+  background-color: rgb(231, 57, 42) !important;
+  padding: 0.3rem 3rem !important;
+  border: none !important;
+  border-radius: 3rem !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin-top: 2rem;
+}
+
+.property-delete-button {
+  background-color: rgb(231, 57, 42) !important;
+  padding: 0.3rem 2rem !important;
+  border: none !important;
+  border-radius: 3rem !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin-top: 1rem;
+}
+
+.view-property-address {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+}
+
+.all-modal-logo {
+  height: 2rem;
+  width: 2.5rem;
+}
+.user-logo {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 0.2rem;
+}
+.nav-profile-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 0.3rem;
+  border-radius: 50%;
+}
+
+.line-clamp {
+  width: 80%;
+}
+
+.px {
+  padding: 1rem 0;
+}
+
+.px-10 {
+  padding: 0 10px;
+}
+
+.pb-10 {
+  padding-bottom: 1rem;
+}
+
+.p-tb-5 {
+  padding-bottom: 1rem;
+}
+
+.h3-text {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.picture-preview {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.show-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.set-show-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.row.test {
+  margin: 0;
+}
+
+.rblock {
+  margin-top: 15px;
+}
+
+.modal-header .close {
+  font-size: 3.5em;
+  padding: 0rem 1rem !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.link-property {
+  text-decoration: none !important;
+  color: black;
+}
+
+.app-logo {
+  height: 37px;
+}
+
+.image-file {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.navbar-bg {
+  background-color: white;
+  padding: 0rem 0;
+}
+.link-item {
+  color: black !important;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+input[type="text"]:disabled {
+  background-color: white;
+}
+
+.navbar-log-in-button {
+  background-color: white !important;
+  border-radius: 2rem !important;
+  color: black !important;
+  padding: 0rem 2rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  margin-right: 0.8rem;
+}
+
+.update-btn {
+  margin-left: 1.5rem;
+}
+
+.navbar-sign-up-button {
+  background-color: rgb(231, 57, 42) !important;
+  border-radius: 2rem !important;
+  color: white !important;
+  padding: 0 2rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  border: none !important;
+  margin-right: 0.8rem;
+}
+
+.home-slider-image {
+  width: 100%;
+  height: 240px;
+}
+.main-criteria-bg {
+  background-color: rgb(254, 245, 244);
+}
+
+.recent-search {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.home-box {
+  height: 530px;
+  overflow-y: scroll;
+}
+
+.map-view {
+  float: right;
+}
+
+.white-box {
+  background-color: white;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.8rem;
+  margin-top: 1rem;
+}
+
+.white-box-inner {
+  background-color: white;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.waterfront-image {
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+
+.waterfront-content {
+  font-size: 12px;
+}
+
+.white-box-shadow {
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.waterfront-facility {
+  font-size: 9px;
+  font-weight: 600;
+  color: gray;
+  padding: 0.1rem 0;
+}
+
+.line {
+  border-bottom: 2px solid lightgray;
+  position: relative;
+  padding-bottom: 5px;
+  width: 345px;
+}
+.line::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background-color: rgb(231, 57, 42);
+}
+
+.icon-location {
+  color: rgb(231, 57, 42);
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.criteria-input {
+  border-radius: 0.4rem;
+  border: 1px solid gray;
+  height: 2.5rem;
+  width: 100%;
+  padding: 0 0.6rem;
+}
+
+.type-of-property {
+  margin-top: 0.5rem;
+}
+
+.size-range {
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.your-location-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.advanced-button-block {
+  text-align: center;
+  /* padding: 0.5rem 0; */
+}
+
+.advanced-button {
+  border: none !important ;
+  border-radius: 15px;
+  width: 200px;
+  height: 70px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  opacity: 1;
+  padding-left: 2rem !important;
+  text-align: left !important;
+  visibility: visible;
+  background-image: url("./imgs/advanced_button.png");
+  background-size: cover;
+  background-size: 200px 70px;
+  background-color: white !important;
+}
+
+.house-profile {
+  background-image: url("./imgs/house_profile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 310px;
+  width: 100%;
+  height: 310px;
+}
+
+.house-profile-block {
+  padding: 2.5rem 5rem;
+  text-align: center;
+}
+
+.house-profile-line {
+  border-bottom: 2px solid lightgray;
+  position: relative;
+  padding-bottom: 10px;
+  width: 380px;
+  margin-left: 10.5rem;
+}
+.house_profile-line::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background-color: white;
+}
+
+.house-profile-content {
+  color: white;
+  font-size: 1rem;
+  padding: 1.2rem 5rem;
+  line-height: 1.9rem;
+}
+
+.house-profile-button {
+  background-color: white;
+  border-radius: 4rem;
+  padding: 1.2rem 3rem;
+  border: none !important;
+  color: rgb(250, 16, 16);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.sell-property-image {
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.browse-profile {
+  background-image: url("./imgs/browse-house.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 310px;
+  width: 100%;
+  height: 310px;
+}
+
+.browse-house-button {
+  background-color: rgb(231, 57, 42);
+  border-radius: 4rem;
+  padding: 1.2rem 3rem;
+  border: none !important;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.tab-view {
+  font-weight: bold;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.latest-blog-block {
+  background-color: white;
+  padding: 2rem 0rem;
+}
+
+.footer-section {
+  background-image: url("./imgs/footer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+}
+
+.footer-lorem-ipsum {
+  line-height: 30px;
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+.service-list {
+  padding-left: 1.5rem;
+}
+
+.slide-item {
+  padding: 0 9px;
+}
+
+.contact-us-block {
+  display: flex;
+}
+
+.location-outline {
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+.location-icon {
+  width: 35px;
+  height: 35px;
+  padding-top: 12px;
+}
+
+.lorem-ipsum-location {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.location-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.beautiful-waterfront-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.lorem-ipsum-address {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.footer-privacy {
+  float: right;
+}
+
+.blog-slider {
+  padding: 2rem 0;
+}
+
+.blog-box {
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  width: 100%;
+
+  background-color: white;
+}
+
+.blog-item {
+  padding: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  font-weight: 600;
+  color: gray;
+}
+
+.dramatically-leverage {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Credibly {
+  font-size: 12px;
+  color: gray;
+}
+
+.read-more-button {
+  background-color: white;
+  border: none;
+  color: gray;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.buyer-browse-image {
+  background-image: url("./imgs/buyer-browse.png");
+  background-size: cover;
+  background-size: 100% 230px;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.all-image {
+  height: 230px;
+}
+
+.search-criteria-box {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 800px;
+}
+
+.property-details-box {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 760px;
+}
+
+.sell-criteria-box {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 1105px;
+}
+
+.more-search-criteria-box {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 352px;
+}
+
+.criteria-line {
+  border-bottom: 2px solid lightgray;
+  position: relative;
+  padding-bottom: 10px;
+  width: 255px;
+  margin-bottom: 1rem;
+}
+.criteria-line::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background-color: rgb(231, 57, 42);
+}
+
+.criteria-location-input {
+  border-radius: 0.4rem;
+  border: 1px solid gray;
+  height: 2.5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.value-range-padder {
+  padding: 0 0.5rem 0.8rem 0.5rem;
+}
+
+.more-search-critria {
+  margin-top: 1.3rem;
+}
+
+.your-search-location-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.property-box {
+  margin-top: 0.6rem;
+}
+.top-property {
+  margin-bottom: 2rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.modal {
+  margin-top: 0 !important;
+}
+.m-width92 {
+  max-width: 92% !important;
+}
+.property-beautiful-waterfront {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.property-content {
+  padding: 0.4rem 0.6rem;
+}
+
+.property-address {
+  font-size: 11px;
+  font-weight: 500;
+  color: gray;
+  padding-top: 0.2rem;
+  padding-bottom: 3px;
+  margin-bottom: 0.3rem;
+  border-bottom: 1px solid rgb(204, 201, 201);
+}
+
+.link-box {
+  background-color: white;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 1rem 0rem;
+  border-radius: 0.2rem;
+  margin-top: 2rem;
+  height: 16rem;
+  overflow-y: scroll;
+}
+
+.list-button {
+  background-color: white;
+  color: rgb(231, 57, 42);
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.list-button-change {
+  background-color: rgb(231, 57, 42) !important;
+  color: white !important;
+  padding: 0.5rem 1rem;
+
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.map-button {
+  background-color: rgb(231, 57, 42);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.map-button-change {
+  background-color: white;
+  color: rgb(231, 57, 42);
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.list-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.front-of-house {
+  font-size: 23px;
+  font-weight: 600;
+  height: 60px;
+}
+
+.front-house-images {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.house-wrapper {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  /* margin-top: 0.6rem; */
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plus-icon {
+  font-size: 4rem;
+  color: rgb(226, 10, 23);
+  cursor: pointer;
+}
+
+.property-from-label {
+  font-size: 17px;
+  font-weight: 600;
+  position: relative;
+}
+
+.property-form-input {
+  height: 3rem !important;
+  width: 520px !important;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border: none !important;
+  border-radius: 0.6rem !important;
+  padding: 0 0.6rem;
+}
+
+.property-places-input {
+  height: 3rem !important;
+  width: 520px !important;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border: none !important;
+  border-radius: 0.6rem !important;
+  padding: 0 0.6rem;
+}
+
+input.property-places-input::placeholder {
+  color: black;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 15.3px;
+}
+
+.description-input {
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border: none !important;
+  border-radius: 0.6rem !important;
+  height: 10rem !important;
+}
+
+.amenities-box {
+  background-color: white;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  padding: 1.5rem 2rem;
+  border-radius: 7px;
+}
+
+.amenities {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.on-button-block {
+  float: right;
+}
+
+.on-button {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  padding-top: 2px;
+}
+
+.off-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.amenities-checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 14px;
+}
+
+.amenities-checkbox-name {
+  font-size: 17px;
+  font-weight: 500;
+  vertical-align: 6px;
+}
+
+.amenities-textbox {
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border: none !important;
+  height: 3rem !important;
+}
+
+.amenities-images {
+  float: right;
+  height: 50px;
+}
+
+.form-padder {
+  padding-top: 1.2rem;
+}
+
+.community-box {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.create-button {
+  background-color: rgb(231, 57, 42) !important;
+  padding: 0.8rem 6rem !important;
+  border: none !important;
+  border-radius: 3rem !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.create-button-block {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.modal {
+  margin-top: 5rem;
+}
+.modal-content {
+  border-radius: 25px !important;
+  overflow: hidden;
+}
+
+.how-to-header {
+  box-shadow: 0px 5px 5px rgb(221, 220, 220);
+}
+
+.how-to-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.modal-header.how-to-header {
+  justify-content: center;
+}
+
+.how-to-header .close {
+  position: absolute;
+  right: 19px;
+  top: 20px;
+}
+
+.how-to-item {
+  padding: 1.3rem 0.5rem;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border-radius: 0.5rem;
+  font-size: 23px;
+  font-weight: 500;
+  margin: 0.5rem 0.2rem !important;
+}
+
+.quickest-way {
+  padding: 1.3rem 0.5rem;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border-radius: 0.5rem;
+  margin: 1.5rem 0.2rem !important;
+  font-size: 23px;
+}
+
+.accord-box {
+  border-radius: 0.5rem !important;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%) !important;
+  margin: 1.5rem 0;
+}
+
+.accord-title-bg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 1rem 0;
+}
+
+.title {
+  margin: 0 12px;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 1.3rem 0.5rem;
+}
+
+.open {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background: rgb(231, 57, 42) !important;
+  color: white;
+}
+
+.arrow-dw {
+  transform: rotate(90deg);
+  float: left;
+  margin-right: 0.4rem;
+  color: white;
+  margin-top: 0.3rem;
+}
+
+.arrow {
+  float: left;
+  color: rgb(29, 28, 28, 0.6);
+}
+
+.accord-contain {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.faq-accord-contain {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  padding-left: 3rem !important;
+}
+
+.log-in-title {
+  font-size: 23px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.login-inputs {
+  height: 3.5rem !important;
+  width: 100% !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.contact-message-inputs {
+  height: 10rem !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+}
+
+.form__padder {
+  padding: 0 3rem;
+}
+
+.form-row-padder {
+  padding-top: 1rem;
+}
+
+.rememberme-checkbox {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-top: 1rem;
+}
+
+.remember-me {
+  font-size: 17px;
+  font-weight: 500;
+  vertical-align: 4px;
+  margin-left: 0.4rem;
+}
+
+.forgot-password {
+  float: right;
+  margin-top: 1rem;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.log-in-button {
+  border: none !important;
+  border-radius: 4rem !important;
+  background: rgb(231, 57, 42) !important;
+  display: block;
+  margin: 15px auto !important;
+  padding: 13px 45px !important;
+  width: 100%;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  color: white;
+  margin-top: 2.5rem !important;
+}
+
+.or-line {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2.5px solid rgb(224, 223, 223);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin: 2.3rem 0;
+}
+
+.or-text {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.google-btn {
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1rem 0;
+  border: 1px solid gray !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+
+.google-icon {
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+.facebook-btn {
+  background-color: rgb(59, 89, 153);
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1rem 0;
+  color: white;
+  border: 1px solid gray !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile-image {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.edit-profile-input {
+  height: 3.5rem !important;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  border: none !important;
+  border-radius: 0.6rem !important;
+  width: 100%;
+  padding: 0 0.6rem;
+}
+
+.edit-profile-image {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+.save-btn {
+  border: none !important;
+  border-radius: 4rem !important;
+  background: rgb(231, 57, 42) !important;
+  display: block !important;
+  margin: 15px auto !important;
+  padding: 15px 140px !important;
+
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  color: white;
+}
+
+.change-password-btn {
+  border: none !important;
+  border-radius: 4rem !important;
+  background: rgb(231, 57, 42) !important;
+  display: block !important;
+  margin: 15px auto !important;
+  padding: 15px 45px !important;
+
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  color: white;
+}
+
+.enter-your-email {
+  margin: 0 4rem;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.register-as {
+  margin: 3rem 5rem;
+}
+
+.reagister-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.register-block {
+  margin: 0 3rem;
+}
+
+.modal-btn {
+  border: none !important;
+  border-radius: 4rem !important;
+  background: rgb(231, 57, 42) !important;
+  display: block;
+  margin: 15px auto !important;
+  padding: 13px 45px !important;
+  width: 100%;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  color: white;
+}
+
+.slider-text {
+  background-image: url("./imgs/overlay.png");
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.list-box {
+  background-color: white;
+  margin-top: 0.9rem;
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  height: 800px;
+  overflow-y: scroll;
+}
+
+.list-item {
+  box-shadow: 0px 2px 10px rgb(231 57 42 / 20%);
+  margin: 0rem;
+  cursor: pointer;
+}
+
+.list-item-image {
+  padding: 0 !important;
+}
+
+.property-list {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price-list {
+  float: right !important;
+}
+
+.price {
+  font-size: 10px;
+  color: red;
+  font-weight: 600;
+}
+
+.list-property-address {
+  font-size: 11px;
+  color: gray;
+  font-weight: 500;
+}
+
+.facility-line {
+  border-bottom: 1px solid rgb(209, 206, 206);
+  padding-bottom: 0.2rem;
+}
+
+.propert-list-padder {
+  margin: 1rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d3d3;
+}
+
+.link-border {
+  border-bottom: 1.8px solid rgb(230, 226, 226);
+  padding: 1rem 0;
+  list-style-position: inside;
+}
+
+.link-border-last {
+  padding: 1rem 0;
+  list-style-position: inside;
+}
+
+ul.padder {
+  margin: 0 1.2rem;
+  padding: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 6px;
+  font-size: 12px;
+  left: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.top-property-image {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tab-bg {
+  background-color: rgb(254, 245, 244) !important;
+  box-shadow: none !important;
+  border-bottom: 1.5px solid rgb(211, 208, 208);
+}
+
+.tab-content {
+  background-color: white;
+  padding: 2.3rem 1.5rem;
+  height: 260px;
+  overflow-y: scroll;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.tab-name {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.faq-accord-border {
+  border-bottom: 1px solid rgb(184, 183, 183);
+  padding: 1rem 0;
+}
+
+.open-faq {
+  background: white !important;
+  color: black;
+}
+
+.faq-title {
+  margin: 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0.2 0.5rem;
+}
+
+.minus {
+  transform: rotate(90deg);
+  float: left;
+  margin-right: 0.4rem;
+  color: black;
+  margin-top: 0.3rem;
+}
+
+.carousel-indicators li {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #f00;
+}
+
+.property-tab-name {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.floor-img {
+  height: 350px;
+  width: 100%;
+}
+
+.description-tab {
+  background-color: white;
+  padding: 0.5rem 1.5rem;
+  height: 150px;
+  overflow-y: scroll;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.contact-seller {
+  border: none !important ;
+  border-radius: 4px;
+  width: 280px;
+  height: 70px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+  opacity: 1;
+  color: white;
+  padding-left: 2.5rem;
+  text-align: left !important;
+  background-image: url("./imgs/contact.png");
+  background-size: 280px 70px;
+  background-color: rgb(254, 245, 244);
+}
+
+.other-service-link {
+  border-bottom: 1.8px solid rgb(230, 226, 226);
+  padding: 1rem 0;
+}
+
+.other-service-link-last {
+  padding: 1rem 0;
+}
+
+.create-profile-button {
+  background-color: rgb(231, 57, 42);
+  border-radius: 4rem;
+  padding: 1.2rem 6rem;
+  border: none !important;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+}
+
+.property-tab-box {
+  height: 350px;
+}
+
+.area-tag {
+  height: 43px;
+  width: 100%;
+  padding: 0.2rem;
+}
+
+.area-content-border {
+  border-bottom: 1px solid rgb(202, 201, 201);
+}
+
+.garden-box {
+  position: relative;
+}
+
+.garden-title {
+  position: absolute;
+  border: none !important;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  width: 270px;
+  padding: 0.6rem;
+}
+
+.a {
+  height: 200px;
+}
+
+.active {
+  color: rgb(231, 57, 42) !important;
+  background-color: white;
+  text-decoration: underline;
+}
+
+.MuiPaper-root .MuiTab-textColorPrimary {
+  padding: 6px 0;
+  min-width: inherit;
+}
+.MuiPaper-root .MuiTab-textColorPrimary.Mui-selected {
+  color: #37352f;
+}
+.MuiPaper-root .MuiTab-textColorPrimary.Mui-selected:after {
+  content: "";
+  width: 45px;
+  height: 3px;
+  background-color: #e7392a;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.condo-image {
+  width: 100%;
+}
+
+.MuiPaper-root .MuiTab-textColorPrimary.Mui-selected:first-child:after {
+  right: inherit;
+}
+.MuiPaper-root .MuiTab-textColorPrimary.Mui-selected:last-child:after {
+  right: inherit;
+}
+.MuiTabs-root {
+  margin-bottom: -2px;
+}
+.MuiPaper-root .MuiButtonBase-root:first-child .MuiTab-wrapper {
+  align-items: flex-start;
+}
+.MuiPaper-root .MuiButtonBase-root:last-child .MuiTab-wrapper {
+  align-items: flex-end;
+}
+.MuiTabs-root .PrivateTabIndicator-root-1 {
+  display: none;
+}
+.MuiAppBar-root.MuiAppBar-root {
+  padding: 0 !important;
+}
+.MuiTabs-root .MuiTab-fullWidth {
+  width: auto;
+  flex: 0 0 auto;
+}
+.MuiTabs-root .MuiTabs-flexContainer {
+  justify-content: space-between;
+}
+.MuiTabs-indicator {
+  display: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .line {
+    width: 280px;
+  }
+  .house-profile-line {
+    padding-bottom: 10px;
+    width: 265px;
+    margin-left: 1rem;
+  }
+  .house-profile-block {
+    padding: 3rem 0rem;
+  }
+
+  .sblock-p {
+    margin-top: 1.5rem;
+  }
+
+  .image-input-box {
+    width: 92%;
+  }
+
+  .sell-property-image {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .enter-your-email {
+    font-size: 16px;
+  }
+
+  .update-btn {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .type-of-property {
+    margin-top: 0.2rem;
+  }
+  .house-profile-content {
+    padding: 1.5rem 0.1rem;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+  .house-profile-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .properties-image {
+    width: 100%;
+  }
+
+  .browse-house-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .amenities-checkbox-name {
+    font-size: 16px;
+  }
+
+  .amenities-checkbox {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .critarea {
+    margin-top: 1.5rem;
+  }
+
+  .advanced-button {
+    width: 240px;
+    height: 65px;
+    font-size: 16px !important;
+    background-size: cover;
+    background-size: 240px 65px;
+  }
+  .slider-text {
+    font-size: 14px;
+  }
+
+  img.three-property-image {
+    width: 100% !important;
+  }
+
+  .abc {
+    width: 100%;
+  }
+
+  ul {
+    word-wrap: break-word;
+  }
+  .tab-name {
+    font-size: 14px !important;
+  }
+  .recent-search {
+    font-size: 17px;
+  }
+  .your-location-title {
+    font-size: 16px;
+    padding-top: 1.2rem;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .criteria-input {
+    border-radius: 0.4rem;
+    height: 2.5rem;
+  }
+  .size-range {
+    font-size: 15px;
+  }
+
+  .h3-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tab-content {
+    font-size: 14px;
+  }
+  .dramatically-leverage {
+    font-size: 14px;
+  }
+  .footer-lorem-ipsum {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .location-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ipsum-block {
+    font-size: 12px;
+  }
+  .footer-privacy {
+    float: left;
+  }
+  .home-slider-image {
+    height: 180px;
+  }
+  .buyer-browse-image {
+    font-size: 20px;
+  }
+  .criteria-location-input {
+    border-radius: 0.4rem;
+    height: 2.8rem;
+  }
+  .your-search-location-title {
+    font-size: 16px;
+  }
+  .more-search-criteria-box {
+    height: 330px;
+  }
+  /* .search-criteria-box {
+    height: 240px;
+  } */
+  .list-button {
+    padding: 0rem 0.8rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .map-button {
+    padding: 0rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .condo-image {
+    width: 100%;
+  }
+  .dummy {
+    font-size: 13px;
+  }
+  .link-border {
+    padding: 0.5rem 0;
+  }
+  .top-property {
+    margin-top: 1.5rem;
+  }
+  .front-of-house {
+    font-size: 20px;
+    height: 30px;
+  }
+  .sell-image {
+    margin-top: 0.8rem;
+  }
+  .garden-title {
+    width: 100%;
+  }
+  .property-form-input {
+    width: 100% !important;
+  }
+  .create-button {
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    font-size: 18px;
+  }
+  .amenities-images {
+    float: left;
+  }
+  .create-profile-button {
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    font-size: 18px;
+  }
+  .log-in-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .form__padder {
+    padding: 0 1rem;
+  }
+  .property-from-label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .login-inputs {
+    height: 2.8rem !important;
+    border-radius: 0.3rem !important;
+  }
+  .remember-me {
+    font-size: 14px;
+  }
+  .forgot-password {
+    float: left;
+
+    font-size: 14px;
+  }
+  .log-in-button {
+    border-radius: 2rem;
+    margin: 15px auto;
+    padding: 11px 25px;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  .or-text {
+    font-size: 16px;
+  }
+  .google-btn {
+    padding: 0.7rem 0;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  .facebook-btn {
+    padding: 1rem 0;
+    font-size: 16px;
+  }
+  .google-icon {
+    font-size: 25px;
+    margin-right: 3px;
+  }
+  .modal-btn {
+    border-radius: 2rem !important;
+    margin: 15px auto !important;
+    padding: 10px 25px !important;
+    font-size: 1rem !important;
+  }
+  .reagister-title {
+    font-size: 25px;
+  }
+  .save-btn {
+    padding: 12px 45px;
+    font-size: 1rem;
+  }
+  .condition-text {
+    font-size: 13px;
+  }
+  .accord-contain {
+    font-size: 12px !important;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-line {
+    display: none;
+  }
+  .other-service-padder {
+    margin-top: 1rem;
+  }
+  .footer-lorem-ipsum {
+    padding-top: 0.5rem;
+  }
+  .sell-image-responsive {
+    margin-top: 1rem;
+  }
+
+  .footer-section {
+    padding: 2rem 0;
+  }
+  .house-profile {
+    background-size: 100% 380px;
+    height: 380px;
+  }
+
+  .browse-profile {
+    background-size: 100% 380px;
+    height: 380px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .line {
+    width: 280px;
+  }
+
+  .image-input-box {
+    width: 92%;
+  }
+  .house-profile {
+    background-size: 100% 380px;
+    height: 380px;
+  }
+  .house-profile-line {
+    padding-bottom: 10px;
+    width: 330px;
+    margin-left: 1rem;
+  }
+  .house-profile-block {
+    padding: 3rem 0rem;
+  }
+
+  .browse-profile {
+    background-size: 100% 380px;
+    height: 380px;
+  }
+
+  .sblock-p {
+    margin-top: 1.5rem;
+  }
+
+  .sell-property-image {
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .enter-your-email {
+    font-size: 16px;
+  }
+
+  .update-btn {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .type-of-property {
+    margin-top: 0.2rem;
+  }
+  .house-profile-content {
+    padding: 1.5rem 0.1rem;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+  .house-profile-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .properties-image {
+    width: 100%;
+  }
+
+  .browse-house-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .amenities-checkbox-name {
+    font-size: 16px;
+  }
+
+  .amenities-checkbox {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .critarea {
+    margin-top: 1.5rem;
+  }
+
+  .advanced-button {
+    width: 240px;
+    height: 65px;
+    font-size: 16px !important;
+    background-size: cover;
+    background-size: 240px 65px;
+  }
+  .slider-text {
+    font-size: 14px;
+  }
+
+  .three-property-image {
+    width: 100%;
+  }
+
+  ul {
+    word-wrap: break-word;
+  }
+  .tab-name {
+    font-size: 14px !important;
+  }
+  .recent-search {
+    font-size: 17px;
+  }
+  .your-location-title {
+    font-size: 16px;
+    padding-top: 1.2rem;
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+  .criteria-input {
+    border-radius: 0.4rem;
+    height: 2.5rem;
+  }
+  .size-range {
+    font-size: 15px;
+  }
+
+  .h3-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tab-content {
+    font-size: 14px;
+  }
+  .dramatically-leverage {
+    font-size: 14px;
+  }
+  .footer-lorem-ipsum {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .location-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ipsum-block {
+    font-size: 12px;
+  }
+  .footer-privacy {
+    float: left;
+  }
+  .home-slider-image {
+    height: 180px;
+  }
+  .buyer-browse-image {
+    font-size: 20px;
+  }
+  .criteria-location-input {
+    border-radius: 0.4rem;
+    height: 2.8rem;
+  }
+  .your-search-location-title {
+    font-size: 16px;
+  }
+  .more-search-criteria-box {
+    height: 330px;
+  }
+  /* .search-criteria-box {
+    height: 240px;
+  } */
+  .list-button {
+    padding: 0.5rem 0.8rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .map-button {
+    padding: 0.5rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .condo-image {
+    width: 100%;
+  }
+  .dummy {
+    font-size: 13px;
+  }
+  .link-border {
+    padding: 0.5rem 0;
+  }
+  .top-property {
+    margin-top: 1.5rem;
+  }
+  .front-of-house {
+    font-size: 20px;
+    height: 30px;
+  }
+  .sell-image {
+    margin-top: 0.8rem;
+  }
+  .garden-title {
+    width: 100%;
+  }
+  .property-form-input {
+    width: 100% !important;
+  }
+  .create-button {
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    font-size: 18px;
+  }
+  .amenities-images {
+    float: left;
+  }
+  .create-profile-button {
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    font-size: 18px;
+  }
+  .log-in-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .form__padder {
+    padding: 0 1rem;
+  }
+  .property-from-label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .login-inputs {
+    height: 2.8rem !important;
+    border-radius: 0.3rem !important;
+  }
+  .remember-me {
+    font-size: 14px;
+  }
+  .forgot-password {
+    float: left;
+
+    font-size: 14px;
+  }
+  .log-in-button {
+    border-radius: 2rem;
+    margin: 15px auto;
+    padding: 11px 25px;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  .or-text {
+    font-size: 16px;
+  }
+  .google-btn {
+    padding: 0.7rem 0;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  .facebook-btn {
+    padding: 1rem 0;
+    font-size: 16px;
+  }
+  .google-icon {
+    font-size: 25px;
+    margin-right: 3px;
+  }
+  .modal-btn {
+    border-radius: 2rem !important;
+    margin: 15px auto !important;
+    padding: 10px 25px !important;
+    font-size: 1rem !important;
+  }
+  .reagister-title {
+    font-size: 25px;
+  }
+  .save-btn {
+    padding: 12px 45px;
+    font-size: 1rem;
+  }
+  .condition-text {
+    font-size: 13px;
+  }
+  .accord-contain {
+    font-size: 12px !important;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-line {
+    display: none;
+  }
+  .other-service-padder {
+    margin-top: 1rem;
+  }
+  .footer-lorem-ipsum {
+    padding-top: 0.5rem;
+  }
+  .sell-image-responsive {
+    margin-top: 1rem;
+  }
+
+  .footer-section {
+    padding: 2rem 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .house-wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .line {
+    width: 330px;
+  }
+
+  .image-input-box {
+    width: 86%;
+  }
+
+  .type-of-property {
+    margin-top: 0.2rem;
+  }
+
+  .sblock-p {
+    margin-top: 1.5rem;
+  }
+
+  .sell-property-image {
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .three-property-image {
+    width: 100%;
+  }
+
+  .enter-your-email {
+    font-size: 16px;
+  }
+
+  .amenities-checkbox-name {
+    font-size: 16px;
+  }
+  .house-profile-line {
+    padding-bottom: 10px;
+    width: 385px;
+    margin-left: 1rem;
+  }
+  .house-profile-block {
+    padding: 3rem 0rem;
+  }
+
+  .update-btn {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+
+  .properties-image {
+    width: 100%;
+  }
+
+  .amenities-checkbox {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .house-profile-content {
+    padding: 1.5rem 0.1rem;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+  .house-profile-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .browse-house-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .critarea {
+    margin-top: 1.5rem;
+  }
+
+  .advanced-button {
+    width: 240px;
+    height: 65px;
+    font-size: 16px !important;
+    background-size: cover;
+    background-size: 240px 65px;
+  }
+  .slider-text {
+    font-size: 14px;
+  }
+  .house-profile {
+    background-size: 100% 380px;
+    height: 380px;
+  }
+
+  .browse-profile {
+    background-size: 100% 380px;
+    height: 380px;
+  }
+
+  ul {
+    word-wrap: break-word;
+  }
+  .tab-name {
+    font-size: 14px !important;
+  }
+  .recent-search {
+    font-size: 17px;
+  }
+  .your-location-title {
+    font-size: 16px;
+    padding-top: 1.2rem;
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+  .criteria-input {
+    border-radius: 0.4rem;
+    height: 2.5rem;
+  }
+  .size-range {
+    font-size: 15px;
+  }
+
+  .h3-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tab-content {
+    font-size: 14px;
+  }
+  .dramatically-leverage {
+    font-size: 14px;
+  }
+  .footer-lorem-ipsum {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .location-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ipsum-block {
+    font-size: 12px;
+  }
+  .footer-privacy {
+    float: left;
+  }
+  .home-slider-image {
+    height: 180px;
+  }
+  .buyer-browse-image {
+    font-size: 20px;
+  }
+  .criteria-location-input {
+    border-radius: 0.4rem;
+    height: 2.8rem;
+  }
+  .your-search-location-title {
+    font-size: 16px;
+  }
+  .more-search-criteria-box {
+    height: 330px;
+  }
+  /* .search-criteria-box {
+    height: 240px;
+  } */
+  .list-button {
+    padding: 0.5rem 0.8rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .map-button {
+    padding: 0.5rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .condo-image {
+    width: 100%;
+  }
+  .dummy {
+    font-size: 13px;
+  }
+  .link-border {
+    padding: 0.5rem 0;
+  }
+  .top-property {
+    margin-top: 1.5rem;
+  }
+  .front-of-house {
+    font-size: 20px;
+    height: 30px;
+  }
+
+  .sell-image-responsive {
+    margin-top: 1rem;
+  }
+  .sell-image {
+    margin-top: 0.8rem;
+  }
+  .garden-title {
+    width: 100%;
+  }
+  .property-form-input {
+    width: 100% !important;
+  }
+  .create-button {
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    font-size: 18px;
+  }
+  .amenities-images {
+    float: left;
+  }
+  .create-profile-button {
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    font-size: 18px;
+  }
+  .log-in-title {
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .form__padder {
+    padding: 0 1rem;
+  }
+  .property-from-label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .login-inputs {
+    height: 2.8rem !important;
+    border-radius: 0.3rem !important;
+  }
+  .remember-me {
+    font-size: 14px;
+  }
+  .forgot-password {
+    float: left;
+
+    font-size: 14px;
+  }
+  .log-in-button {
+    border-radius: 2rem;
+    margin: 15px auto;
+    padding: 11px 25px;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  .or-text {
+    font-size: 16px;
+  }
+  .google-btn {
+    padding: 0.7rem 0;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  .facebook-btn {
+    padding: 1rem 0;
+    font-size: 16px;
+  }
+  .google-icon {
+    font-size: 25px;
+    margin-right: 3px;
+  }
+  .modal-btn {
+    border-radius: 2rem !important;
+    margin: 15px auto !important;
+    padding: 10px 25px !important;
+    font-size: 1rem !important;
+  }
+  .reagister-title {
+    font-size: 25px;
+  }
+  .save-btn {
+    padding: 12px 45px;
+    font-size: 1rem;
+  }
+  .condition-text {
+    font-size: 13px;
+  }
+  .accord-contain {
+    font-size: 14px !important;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-line {
+    display: none;
+  }
+  .other-service-padder {
+    margin-top: 1rem;
+  }
+  .footer-lorem-ipsum {
+    padding-top: 0.5rem;
+  }
+
+  .footer-section {
+    padding: 2rem 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .content-responsive {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .list-button {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .list-button-change {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .map-button {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .map-button-change {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .property-details-box {
+    height: 630px;
+  }
+
+  .tab-bar {
+    padding-top: 2.4rem;
+  }
+
+  .line {
+    width: 200px;
+  }
+
+  .sell-criteria-box {
+    height: 1045px;
+  }
+
+  .three-property-image {
+    width: 100%;
+  }
+
+  .house-profile {
+    background-size: 100% 370px;
+    height: 370px;
+  }
+
+  .browse-profile {
+    background-size: 100% 370px;
+    height: 370px;
+  }
+
+  .amenities-checkbox-name {
+    font-size: 12px;
+    vertical-align: 3px;
+  }
+
+  .home-box {
+    height: 600px;
+    overflow-y: scroll;
+  }
+
+  .house-profile-line {
+    width: 300px;
+    margin-left: 2.5rem;
+  }
+  .house-profile-block {
+    padding: 3rem 0rem;
+  }
+
+  .amenities {
+    font-size: 20px;
+  }
+
+  .amenities-checkbox {
+    height: 1rem;
+    width: 1rem;
+  }
+  .house-profile-content {
+    padding: 1.5rem 0.1rem;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+  .house-profile-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .browse-house-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .critarea {
+    margin-top: 1.5rem;
+  }
+
+  .slider-text {
+    font-size: 17px;
+  }
+
+  ul {
+    word-wrap: break-word;
+  }
+  .tab-name {
+    font-size: 16px !important;
+  }
+  .recent-search {
+    font-size: 17px;
+  }
+  .your-location-title {
+    font-size: 16px;
+  }
+  ::placeholder {
+    font-size: 12px;
+  }
+  .criteria-input {
+    border-radius: 0.4rem;
+    height: 3rem;
+  }
+  .size-range {
+    font-size: 13px;
+  }
+
+  .h3-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tab-content {
+    font-size: 14px;
+  }
+  .dramatically-leverage {
+    font-size: 14px;
+  }
+  .footer-lorem-ipsum {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .location-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ipsum-block {
+    font-size: 12px;
+  }
+  .footer-privacy {
+    float: left;
+  }
+  .home-slider-image {
+    height: 180px;
+  }
+  .buyer-browse-image {
+    font-size: 20px;
+  }
+  .criteria-location-input {
+    border-radius: 0.4rem;
+    height: 2.8rem;
+  }
+  .your-search-location-title {
+    font-size: 14px;
+  }
+
+  .search-criteria-box {
+    height: 628px;
+  }
+  .list-button {
+    padding: 0.5rem 0.8rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .map-button {
+    padding: 0.5rem 0.8rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .condo-image {
+    width: 100%;
+  }
+  .dummy {
+    font-size: 13px;
+  }
+  .link-border {
+    padding: 0.5rem 0;
+  }
+  .top-property {
+    margin-top: 1.5rem;
+  }
+  .front-of-house {
+    font-size: 20px;
+  }
+
+  .garden-title {
+    width: 100%;
+  }
+  .property-form-input {
+    width: 325px !important;
+  }
+  .create-button {
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    font-size: 18px;
+  }
+  .amenities-images {
+    float: left;
+  }
+  .create-profile-button {
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    font-size: 18px;
+  }
+  .log-in-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .form__padder {
+    padding: 0 1rem;
+  }
+  .property-from-label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .login-inputs {
+    height: 2.8rem !important;
+    border-radius: 0.3rem !important;
+  }
+  .remember-me {
+    font-size: 12px;
+  }
+  .forgot-password {
+    font-size: 12px;
+  }
+  .log-in-button {
+    border-radius: 2rem;
+    padding: 11px 25px;
+    font-size: 1rem;
+  }
+  .or-text {
+    font-size: 16px;
+  }
+  .google-btn {
+    padding: 0.7rem 0;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  .facebook-btn {
+    padding: 0.7rem 0;
+    font-size: 13px;
+  }
+  .google-icon {
+    font-size: 20px;
+    margin-right: 3px;
+  }
+  .modal-btn {
+    border-radius: 2rem !important;
+    margin: 15px auto !important;
+    padding: 10px 25px !important;
+    font-size: 1rem !important;
+  }
+  .reagister-title {
+    font-size: 25px;
+  }
+  .save-btn {
+    padding: 12px 45px;
+    font-size: 1rem;
+  }
+  .condition-text {
+    font-size: 13px;
+  }
+  .accord-contain {
+    font-size: 14px !important;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .navbar-link {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 0rem;
+  }
+  .navbar-log-in-button {
+    border-radius: 1rem !important;
+    width: 4.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 15px !important;
+  }
+
+  .navbar-sign-up-button {
+    border-radius: 1rem !important;
+    padding: 0 0.8rem !important;
+    font-size: 15px !important;
+    margin-right: 0.8rem;
+  }
+
+  .criteria-line {
+    border-bottom: 2px solid lightgray;
+    width: 145px;
+  }
+  .list-box {
+    height: 630px;
+  }
+  .more-search-criteria-box {
+    height: 427px;
+  }
+  .navbar-bg.block {
+    max-width: 100%;
+  }
+  .propert-list-padder .col-sm-4,
+  .propert-list-padder .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .list-property-address {
+    padding-bottom: 10px;
+  }
+
+  .location-outline {
+    width: 25px;
+    height: 25px;
+  }
+  .location-icon {
+    width: 25px;
+    height: 25px;
+    padding: 6px 5px;
+  }
+
+  .sell-property-image {
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1700px) {
+  .line {
+    width: 270px;
+  }
+
+  .three-property-image {
+    width: 100%;
+  }
+  .house-profile {
+    background-size: 100% 370px;
+    height: 370px;
+  }
+
+  .browse-profile {
+    background-size: 100% 370px;
+    height: 370px;
+  }
+
+  .amenities-checkbox-name {
+    font-size: 16px;
+    vertical-align: 3px;
+  }
+
+  .home-box {
+    height: 525px;
+    overflow-y: scroll;
+  }
+
+  .house-profile-line {
+    width: 280px;
+    margin-left: 15.5rem;
+  }
+  .house-profile-block {
+    padding: 3rem 0rem;
+  }
+
+  .amenities {
+    font-size: 20px;
+  }
+
+  .amenities-checkbox {
+    height: 1rem;
+    width: 1rem;
+  }
+  .house-profile-content {
+    padding: 1.5rem 7rem;
+    line-height: 2rem;
+    font-size: 15px;
+  }
+  .house-profile-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .browse-house-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .slider-text {
+    font-size: 19px;
+  }
+
+  ul {
+    word-wrap: break-word;
+  }
+  .tab-name {
+    font-size: 16px !important;
+  }
+  .recent-search {
+    font-size: 17px;
+  }
+  .your-location-title {
+    font-size: 16px;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .criteria-input {
+    border-radius: 0.4rem;
+    height: 2.5rem;
+  }
+  .size-range {
+    font-size: 13px;
+  }
+
+  .h3-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tab-content {
+    font-size: 15px;
+  }
+  .dramatically-leverage {
+    font-size: 14px;
+  }
+  .footer-lorem-ipsum {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .location-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ipsum-block {
+    font-size: 12px;
+  }
+  .footer-privacy {
+    float: left;
+  }
+  .home-slider-image {
+    height: 190px;
+  }
+
+  .criteria-location-input {
+    border-radius: 0.4rem;
+    height: 2.3rem;
+  }
+  .your-search-location-title {
+    font-size: 14px;
+  }
+
+  .search-criteria-box {
+    height: 800px;
+  }
+
+  .dummy {
+    font-size: 13px;
+  }
+  .link-border {
+    padding: 0.5rem 0;
+  }
+
+  .front-of-house {
+    font-size: 22px;
+  }
+
+  .garden-title {
+    width: 240px;
+  }
+
+  .create-button {
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    font-size: 18px;
+  }
+
+  .create-profile-button {
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    font-size: 18px;
+  }
+  .log-in-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .form__padder {
+    padding: 0 1rem;
+  }
+  .property-from-label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .login-inputs {
+    height: 2.8rem !important;
+    border-radius: 0.3rem !important;
+  }
+  .remember-me {
+    font-size: 12px;
+  }
+  .forgot-password {
+    font-size: 12px;
+  }
+  .log-in-button {
+    border-radius: 2rem;
+    padding: 11px 25px;
+    font-size: 1rem;
+  }
+  .or-text {
+    font-size: 16px;
+  }
+  .google-btn {
+    padding: 0.7rem 0;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  .facebook-btn {
+    padding: 0.7rem 0;
+    font-size: 13px;
+  }
+  .google-icon {
+    font-size: 20px;
+    margin-right: 3px;
+  }
+  .modal-btn {
+    border-radius: 2rem !important;
+    margin: 15px auto !important;
+    padding: 10px 25px !important;
+    font-size: 1rem !important;
+  }
+  .reagister-title {
+    font-size: 25px;
+  }
+  .save-btn {
+    padding: 12px 45px;
+    font-size: 1rem;
+  }
+  .condition-text {
+    font-size: 13px;
+  }
+  .accord-contain {
+    font-size: 14px !important;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .navbar-link {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 0rem;
+  }
+  .navbar-log-in-button {
+    border-radius: 1rem !important;
+    width: 4.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 15px !important;
+  }
+
+  .navbar-sign-up-button {
+    border-radius: 1rem !important;
+    padding: 0 0.8rem !important;
+    font-size: 15px !important;
+    margin-right: 0.8rem;
+  }
+
+  .criteria-line {
+    border-bottom: 2px solid lightgray;
+    width: 145px;
+  }
+  .list-box {
+    height: 800px;
+    margin-top: 0.7rem;
+  }
+  .more-search-criteria-box {
+    height: 373px;
+    margin-top: 1.2rem;
+  }
+  .navbar-bg.block {
+    max-width: 100%;
+  }
+
+  .list-property-address {
+    font-size: 10px;
+  }
+
+  .location-outline {
+    width: 25px;
+    height: 25px;
+  }
+  .location-icon {
+    width: 25px;
+    height: 25px;
+    padding: 6px 5px;
+  }
+
+  .sell-property-image {
+    width: 240px;
+    height: 180px;
+    border-radius: 5px;
+  }
+  .navbar-log-in-button {
+    width: 6rem !important;
+  }
+  .rblock {
+    margin-top: 14px;
+  }
+  .buyer-browse-image {
+    background-image: url("./imgs/buyer-browse.png");
+    background-size: cover;
+    background-size: 100% 198px;
+    padding: 95px 0;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .all-image {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .property-beautiful-waterfront {
+    font-size: 13px;
+  }
+  .property-address {
+    font-size: 10px;
+  }
+  .waterfront-facility {
+    font-size: 9px;
+    font-weight: 600;
+    color: gray;
+    padding: 0.1rem 0;
+  }
+  .t-block {
+    padding-left: 0px !important;
+  }
+  .tblock {
+    padding-left: 9px !important;
+  }
+  .property-list {
+    font-size: 13px;
+  }
+  .p__block {
+    padding-right: 0px !important;
+  }
+  .facility-line {
+    padding-bottom: 0.2rem;
+  }
+  .plus-icon {
+    font-size: 3rem;
+  }
+  .buyer-browse-image {
+    font-size: 25px;
+  }
+  .user-logo {
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-top: 0.4rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .line {
+    width: 270px;
+  }
+
+  .content-responsive {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .three-property-image {
+    width: 100%;
+  }
+  .house-profile {
+    background-size: 100% 370px;
+    height: 370px;
+  }
+
+  .browse-profile {
+    background-size: 100% 370px;
+    height: 370px;
+  }
+
+  .amenities-checkbox-name {
+    font-size: 16px;
+    vertical-align: 3px;
+  }
+
+  .home-box {
+    height: 525px;
+    overflow-y: scroll;
+  }
+
+  .house-profile-line {
+    width: 280px;
+    margin-left: 6.5rem;
+  }
+  .house-profile-block {
+    padding: 3rem 0rem;
+  }
+
+  .amenities {
+    font-size: 20px;
+  }
+
+  .amenities-checkbox {
+    height: 1rem;
+    width: 1rem;
+  }
+  .house-profile-content {
+    padding: 1.5rem 2rem;
+    line-height: 2rem;
+    font-size: 15px;
+  }
+  .house-profile-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+  .browse-house-button {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .slider-text {
+    font-size: 19px;
+  }
+
+  ul {
+    word-wrap: break-word;
+  }
+  .tab-name {
+    font-size: 16px !important;
+  }
+  .recent-search {
+    font-size: 17px;
+  }
+  .your-location-title {
+    font-size: 16px;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .criteria-input {
+    border-radius: 0.4rem;
+    height: 2.5rem;
+  }
+  .size-range {
+    font-size: 13px;
+  }
+
+  .h3-text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tab-content {
+    font-size: 15px;
+  }
+  .dramatically-leverage {
+    font-size: 14px;
+  }
+  .footer-lorem-ipsum {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .location-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .ipsum-block {
+    font-size: 12px;
+  }
+  .footer-privacy {
+    float: left;
+  }
+  .home-slider-image {
+    height: 190px;
+  }
+
+  .criteria-location-input {
+    border-radius: 0.4rem;
+    height: 2.3rem;
+  }
+  .your-search-location-title {
+    font-size: 14px;
+  }
+
+  .search-criteria-box {
+    height: 660px;
+  }
+
+  .dummy {
+    font-size: 13px;
+  }
+  .link-border {
+    padding: 0.5rem 0;
+  }
+
+  .front-of-house {
+    font-size: 22px;
+  }
+
+  .garden-title {
+    width: 240px;
+  }
+
+  .create-button {
+    padding: 0.9rem 5rem;
+    border-radius: 3rem;
+    font-size: 18px;
+  }
+
+  .create-profile-button {
+    border-radius: 4rem;
+    padding: 1rem 1rem;
+    font-size: 18px;
+  }
+  .log-in-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .form__padder {
+    padding: 0 1rem;
+  }
+  .property-from-label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .login-inputs {
+    height: 2.8rem !important;
+    border-radius: 0.3rem !important;
+  }
+  .remember-me {
+    font-size: 12px;
+  }
+  .forgot-password {
+    font-size: 12px;
+  }
+  .log-in-button {
+    border-radius: 2rem;
+    padding: 11px 25px;
+    font-size: 1rem;
+  }
+  .or-text {
+    font-size: 16px;
+  }
+  .google-btn {
+    padding: 0.7rem 0;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  .facebook-btn {
+    padding: 0.7rem 0;
+    font-size: 13px;
+  }
+  .google-icon {
+    font-size: 20px;
+    margin-right: 3px;
+  }
+  .modal-btn {
+    border-radius: 2rem !important;
+    margin: 15px auto !important;
+    padding: 10px 25px !important;
+    font-size: 1rem !important;
+  }
+  .reagister-title {
+    font-size: 25px;
+  }
+  .save-btn {
+    padding: 12px 45px;
+    font-size: 1rem;
+  }
+  .condition-text {
+    font-size: 13px;
+  }
+  .accord-contain {
+    font-size: 14px !important;
+  }
+  .title {
+    font-size: 17px;
+  }
+  .navbar-link {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 0rem;
+  }
+  .navbar-log-in-button {
+    border-radius: 1rem !important;
+    width: 4.5rem !important;
+    padding: 0rem 0rem !important;
+    font-size: 15px !important;
+  }
+
+  .navbar-sign-up-button {
+    border-radius: 1rem !important;
+    padding: 0 0.8rem !important;
+    font-size: 15px !important;
+    margin-right: 0.8rem;
+  }
+
+  .criteria-line {
+    border-bottom: 2px solid lightgray;
+    width: 145px;
+  }
+  .list-box {
+    height: 660px;
+    margin-top: 0.7rem;
+  }
+  .more-search-criteria-box {
+    height: 295px;
+    margin-top: 1.2rem;
+  }
+  .navbar-bg.block {
+    max-width: 100%;
+  }
+
+  .list-property-address {
+    font-size: 10px;
+  }
+
+  .location-outline {
+    width: 25px;
+    height: 25px;
+  }
+  .location-icon {
+    width: 25px;
+    height: 25px;
+    padding: 6px 5px;
+  }
+
+  .sell-property-image {
+    width: 240px;
+    height: 180px;
+    border-radius: 5px;
+  }
+  .navbar-log-in-button {
+    width: 6rem !important;
+  }
+  .rblock {
+    margin-top: 14px;
+  }
+  .buyer-browse-image {
+    background-image: url("./imgs/buyer-browse.png");
+    background-size: cover;
+    background-size: 100% 198px;
+    padding: 95px 0;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .all-image {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .property-beautiful-waterfront {
+    font-size: 13px;
+  }
+  .property-address {
+    font-size: 10px;
+  }
+  .waterfront-facility {
+    font-size: 9px;
+    font-weight: 600;
+    color: gray;
+    padding: 0.1rem 0;
+  }
+  .t-block {
+    padding-left: 0px !important;
+  }
+  .tblock {
+    padding-left: 9px !important;
+  }
+  .property-list {
+    font-size: 13px;
+  }
+  .p__block {
+    padding-right: 0px !important;
+  }
+  .facility-line {
+    padding-bottom: 0.2rem;
+  }
+  .plus-icon {
+    font-size: 3rem;
+  }
+  .buyer-browse-image {
+    font-size: 25px;
+  }
+  .user-logo {
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-top: 0.4rem;
+  }
+  .property-tab-box {
+    height: 300px;
+  }
+  .description-tab {
+    height: 122px;
+  }
+  .property-form-input {
+    width: 100% !important;
+  }
+}
+
+.carousel-control-prev-icon {
+  opacity: 0;
+}
+.carousel-control-next-icon {
+  opacity: 0;
+}
